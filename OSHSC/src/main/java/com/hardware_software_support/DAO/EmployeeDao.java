@@ -7,6 +7,7 @@ import com.hardware_software_support.exceptions.EmployeeException;
 import com.hardware_software_support.model.Complaints;
 import com.hardware_software_support.model.Employee;
 import com.hardware_software_support.model.EngineerComplaintsDTO;
+import com.hardware_software_support.model.Complaints;
 
 public interface EmployeeDao {
 

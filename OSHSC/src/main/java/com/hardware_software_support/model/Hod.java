@@ -1,38 +1,27 @@
 package com.hardware_software_support.model;
 
-public class Employee {
-
-	private int empId;
-	private int deptid;
+public class Hod {
+	
+	private int hodId;
 	private String name;
 	private String userName;
 	private String password;
 	
-	public Employee() {}
+	public Hod() {}
 
-	public Employee(int empId, int deptid, String name, String userName, String password) {
-		super();
-		this.empId = empId;
-		this.deptid = deptid;
+	public Hod(int hodId, String name, String userName, String password) {
+		this.hodId = hodId;
 		this.name = name;
 		this.userName = userName;
 		this.password = password;
 	}
 
-	public int getEmpId() {
-		return empId;
+	public int getHodId() {
+		return hodId;
 	}
 
-	public void setEmpId(int empId) {
-		this.empId = empId;
-	}
-
-	public int getDeptid() {
-		return deptid;
-	}
-
-	public void setDeptid(int deptid) {
-		this.deptid = deptid;
+	public void setHodId(int hodId) {
+		this.hodId = hodId;
 	}
 
 	public String getName() {
@@ -61,9 +50,10 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [empId=" + empId + ", deptid=" + deptid + ", name=" + name + ", userName=" + userName
-				+ ", password=" + password + "]";
+		return "Hod [hodId=" + hodId + ", name=" + name + ", userName=" + userName + ", password=" + password + "]";
 	}
+	
+	
 	
 	
 }
